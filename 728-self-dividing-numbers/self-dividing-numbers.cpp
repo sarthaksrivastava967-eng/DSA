@@ -11,7 +11,7 @@ public:
                     ok = false;
                     break;
                 }
-                x /= 10;
+                x =x/10;
             }
             if (ok)
                 ans.push_back(n);
